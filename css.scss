@@ -26,4 +26,11 @@ $colour9: #F2F2F2;
 
 .card-1{
     @include card();
+
+    //Position for person img in card 1
+    .person-img{
+        grid-row: 2/3;
+        grid-column: 2/3;
+        margin: auto;
+    }
 }
