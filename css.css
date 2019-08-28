@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.person-img {
+  border-radius: 50%;
+}
+
 .card-1 {
   width: 250px;
   height: 250px;

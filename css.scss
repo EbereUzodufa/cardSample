@@ -24,6 +24,10 @@ $colour9: #F2F2F2;
     padding: 0;
 }
 
+.person-img{
+    border-radius: 50%;
+}
+
 .card-1{
     @include card();
 
