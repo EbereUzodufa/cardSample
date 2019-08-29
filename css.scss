@@ -20,6 +20,7 @@ $colour9: #F2F2F2;
     grid-template-columns: 25px 200px 25px;
     background:$bgColor;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 20px auto;
 }
 
 *{
@@ -31,15 +32,15 @@ body{
     background: $colour9;
 }
 
-body, header, main, .container{
+body, header, main, .container, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
 
-.center-card{
-    margin: 20px auto;
-}
+// .center-card{
+//     margin: 20px auto;
+// }
 
 .person-img{
     border-radius: 50%;
