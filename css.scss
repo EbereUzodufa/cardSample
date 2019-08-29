@@ -33,6 +33,10 @@ body{
 
 .person-img{
     border-radius: 50%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    height: 120px;
+    width: 120px;
 }
 
 p.person-name{
