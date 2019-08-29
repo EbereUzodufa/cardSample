@@ -16,7 +16,7 @@ $colour9: #F2F2F2;
     width: $width;
     height: $column;
     display: grid;
-    grid-template-rows: 25px 120px 10px 70px 25px;
+    grid-template-rows: 25px 60px 60px 10px 70px 25px;
     grid-template-columns: 25px 200px 25px;
     background:$bgColor;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -44,13 +44,13 @@ p.person-role{
 
     //Position for person img in card 1
     .person-img{
-        grid-row: 2/3;
+        grid-row: 2/4;
         grid-column: 2/3;
         margin: auto;
     }
 
     .person-details {
-        grid-row: 4/5;
+        grid-row: 5/6;
         grid-column: 2/3;
         display: flex;
         flex-wrap: wrap;
@@ -78,13 +78,13 @@ p.person-role{
 
     //Position for person img in card 1
     .person-img{
-        grid-row: 2/3;
+        grid-row: 2/4;
         grid-column: 2/3;
         margin: auto;
     }
 
     .person-details {
-        grid-row: 4/5;
+        grid-row: 5/6;
         grid-column: 2/3;
         display: flex;
         flex-wrap: wrap;

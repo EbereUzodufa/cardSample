@@ -21,8 +21,8 @@ p.person-role {
   height: 250px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 25px 120px 10px 70px 25px;
-      grid-template-rows: 25px 120px 10px 70px 25px;
+  -ms-grid-rows: 25px 60px 60px 10px 70px 25px;
+      grid-template-rows: 25px 60px 60px 10px 70px 25px;
   -ms-grid-columns: 25px 200px 25px;
       grid-template-columns: 25px 200px 25px;
   background: #fff;
@@ -32,8 +32,8 @@ p.person-role {
 
 .card-1 .person-img {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -41,9 +41,9 @@ p.person-role {
 }
 
 .card-1 .person-details {
-  -ms-grid-row: 4;
+  -ms-grid-row: 5;
   -ms-grid-row-span: 1;
-  grid-row: 4/5;
+  grid-row: 5/6;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -74,8 +74,8 @@ p.person-role {
   height: 250px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 25px 120px 10px 70px 25px;
-      grid-template-rows: 25px 120px 10px 70px 25px;
+  -ms-grid-rows: 25px 60px 60px 10px 70px 25px;
+      grid-template-rows: 25px 60px 60px 10px 70px 25px;
   -ms-grid-columns: 25px 200px 25px;
       grid-template-columns: 25px 200px 25px;
   background: #fff;
@@ -85,8 +85,8 @@ p.person-role {
 
 .card-2 .person-img {
   -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  grid-row: 2/3;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -94,9 +94,9 @@ p.person-role {
 }
 
 .card-2 .person-details {
-  -ms-grid-row: 4;
+  -ms-grid-row: 5;
   -ms-grid-row-span: 1;
-  grid-row: 4/5;
+  grid-row: 5/6;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
