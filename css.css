@@ -6,9 +6,10 @@
 
 body {
   background: #F2F2F2;
+  font-size: 14px;
 }
 
-body, header, main, .container, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, header nav, header nav ul, li.navItem p {
+body, header, main, .container, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, header nav, header nav ul, li.navItem p, footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,23 +31,32 @@ header nav ul li.navItem {
   height: 45px;
   width: 50px;
   margin: 5px auto;
-  padding: 10px;
 }
 
-header nav ul li.navItem p {
+header nav ul li.navItem button {
+  padding: 5px;
+  border: 0;
+  background: none;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+header nav ul li.navItem button p {
   text-align: center;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
 }
 
-header nav ul li.navItem p span {
+header nav ul li.navItem button p span {
   width: 100%;
   font-size: 1.2em;
+  font-family: 'Viga', sans-serif;
 }
 
 header h1#title {
   margin: 35px auto;
   width: 250px;
-  font-family: Viga;
+  font-family: 'Viga', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -519,5 +529,35 @@ p.person-role {
   -ms-grid-column-span: 1;
   grid-column: 2/3;
   margin: auto;
+}
+
+footer {
+  margin-top: 25px;
+  padding: 15px;
+  background: #fff;
+}
+
+footer p#footer-text {
+  font-family: 'Viga', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p#footer-text img#cassavaApp {
+  height: 30px;
+  width: 30px;
+}
+
+li.navItem.selected p {
+  color: #EB5757;
 }
 /*# sourceMappingURL=css.css.map */
