@@ -9,7 +9,7 @@ $colour8: #EB5757;
 $colour9: #F2F2F2;
 
 //Importing Google fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Viga&display=swap');
 
 // Card details
 @mixin card ($width: 250px, $column: 250px, $bgColor: $colour1){
