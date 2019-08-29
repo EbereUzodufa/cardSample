@@ -30,4 +30,28 @@
   grid-column: 2/3;
   margin: auto;
 }
+
+.card-1 .person-details {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /* width: auto; */
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F2C94C;
+}
+
+.card-1 .person-details p {
+  width: 100%;
+}
 /*# sourceMappingURL=css.css.map */
