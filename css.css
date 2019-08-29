@@ -17,6 +17,10 @@ body, header, main, .container {
   width: 100%;
 }
 
+.center-card {
+  margin: 20px auto;
+}
+
 .person-img {
   border-radius: 50%;
   border: 1px solid #000000;
