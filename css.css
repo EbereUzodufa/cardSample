@@ -17,6 +17,19 @@ body, header, main, .container, .card-1, .card-2, .card-3, .card-4, .card-5, .ca
   width: 100%;
 }
 
+header h1#title {
+  margin: 35px auto;
+  width: 250px;
+  font-family: Viga;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
 .person-img {
   border-radius: 50%;
   border: 1px solid #000000;
