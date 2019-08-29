@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background: #F2F2F2;
+}
+
 .person-img {
   border-radius: 50%;
 }
