@@ -107,3 +107,48 @@ p.person-role{
         // }
     }
 }
+
+.card-3{
+    @include card();
+
+    //Position for person img in card 1
+    .person-img{
+        grid-row: 2/4;
+        grid-column: 2/3;
+        margin: auto;
+        z-index: 1;
+        border: 5px solid $colour6;
+    }
+
+    .person-details {
+        grid-row: 5/6;
+        grid-column: 2/3;
+        display: flex;
+        flex-wrap: wrap;
+        /* width: auto; */
+        text-align: center;
+        align-items: center;
+        background:transparent;
+        z-index: 1;
+        p{
+            width: 100%;
+            color: $colour3;
+        }
+
+        p.person-name{
+            font-weight: bold;
+            color: $colour3;
+        }
+
+        p.person-role{
+            color: $colour1;
+        }
+    }
+
+    //Dummy div
+    div.card-cover{
+        grid-row:3/6;
+        grid-column: 2/3;
+        background: $colour6;
+    }
+}
