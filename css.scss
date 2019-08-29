@@ -49,6 +49,15 @@ $colour9: #F2F2F2;
         background: #F2C94C;
         p{
             width: 100%;
+            color: $colour3;
         }
+
+        p.person-name{
+            font-weight: bold;
+        }
+
+        // p.person-role{
+
+        // }
     }
 }
