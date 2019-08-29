@@ -16,7 +16,7 @@ p.person-role {
   font-family: 'Open Sans', sans-serif;
 }
 
-.card-1 {
+.card-1 .card {
   width: 250px;
   height: 250px;
   display: -ms-grid;
@@ -30,7 +30,7 @@ p.person-role {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.card-1 .person-img {
+.card-1 .card .person-img {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
@@ -40,7 +40,7 @@ p.person-role {
   margin: auto;
 }
 
-.card-1 .person-details {
+.card-1 .card .person-details {
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
@@ -60,16 +60,16 @@ p.person-role {
   background: #F2C94C;
 }
 
-.card-1 .person-details p {
+.card-1 .card .person-details p {
   width: 100%;
   color: #000;
 }
 
-.card-1 .person-details p.person-name {
+.card-1 .card .person-details p.person-name {
   font-weight: bold;
 }
 
-.card-2 {
+.card-2 .card {
   width: 250px;
   height: 250px;
   display: -ms-grid;
@@ -83,7 +83,7 @@ p.person-role {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.card-2 .person-img {
+.card-2 .card .person-img {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
@@ -93,7 +93,7 @@ p.person-role {
   margin: auto;
 }
 
-.card-2 .person-details {
+.card-2 .card .person-details {
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
@@ -113,17 +113,17 @@ p.person-role {
   background: transparent;
 }
 
-.card-2 .person-details p {
+.card-2 .card .person-details p {
   width: 100%;
   color: #000;
 }
 
-.card-2 .person-details p.person-name {
+.card-2 .card .person-details p.person-name {
   font-weight: bold;
   color: #006633;
 }
 
-.card-3 {
+.card-3 .card {
   width: 250px;
   height: 250px;
   display: -ms-grid;
@@ -137,7 +137,7 @@ p.person-role {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.card-3 .person-img {
+.card-3 .card .person-img {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
@@ -149,7 +149,7 @@ p.person-role {
   border: 5px solid #2F80ED;
 }
 
-.card-3 .person-details {
+.card-3 .card .person-details {
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
@@ -170,21 +170,21 @@ p.person-role {
   z-index: 1;
 }
 
-.card-3 .person-details p {
+.card-3 .card .person-details p {
   width: 100%;
   color: #000;
 }
 
-.card-3 .person-details p.person-name {
+.card-3 .card .person-details p.person-name {
   font-weight: bold;
   color: #000;
 }
 
-.card-3 .person-details p.person-role {
+.card-3 .card .person-details p.person-role {
   color: #fff;
 }
 
-.card-3 div.card-cover {
+.card-3 .card div.card-cover {
   -ms-grid-row: 3;
   -ms-grid-row-span: 3;
   grid-row: 3/6;
@@ -194,7 +194,7 @@ p.person-role {
   background: #2F80ED;
 }
 
-.card-4 {
+.card-4 .card {
   width: 250px;
   height: 250px;
   display: -ms-grid;
@@ -209,7 +209,7 @@ p.person-role {
   border-radius: 50% 50% 0 0;
 }
 
-.card-4 .person-img {
+.card-4 .card .person-img {
   -ms-grid-row: 2;
   -ms-grid-row-span: 2;
   grid-row: 2/4;
@@ -219,7 +219,7 @@ p.person-role {
   margin: auto;
 }
 
-.card-4 .person-details {
+.card-4 .card .person-details {
   -ms-grid-row: 5;
   -ms-grid-row-span: 1;
   grid-row: 5/6;
@@ -239,12 +239,12 @@ p.person-role {
   background: transparent;
 }
 
-.card-4 .person-details p {
+.card-4 .card .person-details p {
   width: 100%;
   color: #000;
 }
 
-.card-4 .person-details p.person-name {
+.card-4 .card .person-details p.person-name {
   font-weight: bold;
   color: #2F80ED;
 }
