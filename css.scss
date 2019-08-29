@@ -31,6 +31,12 @@ body{
     background: $colour9;
 }
 
+body, header, main, .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .person-img{
     border-radius: 50%;
     border: 1px solid #000000;

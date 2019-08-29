@@ -8,6 +8,15 @@ body {
   background: #F2F2F2;
 }
 
+body, header, main, .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
 .person-img {
   border-radius: 50%;
   border: 1px solid #000000;
