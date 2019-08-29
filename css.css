@@ -8,13 +8,39 @@ body {
   background: #F2F2F2;
 }
 
-body, header, main, .container, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7 {
+body, header, main, .container, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, header nav, header nav ul, li.navItem p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
+}
+
+header nav {
+  background: #fff;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li.navItem {
+  display: inline-block;
+  height: 45px;
+  width: 50px;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+header nav ul li.navItem p {
+  text-align: center;
+  font-weight: bold;
+}
+
+header nav ul li.navItem p span {
+  width: 100%;
+  font-size: 1.2em;
 }
 
 header h1#title {
