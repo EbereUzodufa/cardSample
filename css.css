@@ -53,5 +53,10 @@
 
 .card-1 .person-details p {
   width: 100%;
+  color: #000;
+}
+
+.card-1 .person-details p.person-name {
+  font-weight: bold;
 }
 /*# sourceMappingURL=css.css.map */
