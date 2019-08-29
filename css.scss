@@ -274,3 +274,44 @@ p.person-role{
         margin: auto;
     }
 }
+
+.card-7 .card{
+    @include card();
+    border-radius: 50% 50% 0 0;
+    //Position for person img in card 1
+    .person-img{
+        grid-row: 2/4;
+        grid-column: 2/3;
+        margin: auto;
+    }
+
+    .person-details {
+        grid-row: 5/7;
+        grid-column: 1/4;
+        display: flex;
+        flex-wrap: wrap;
+        /* width: auto; */
+        text-align: center;
+        align-items: center;
+        background:$colour6;
+        p{
+            width: 100%;
+            color: $colour3;
+        }
+
+        p.person-name{
+            font-weight: bold;
+            color: $colour1;
+        }
+    }
+
+    div.card-cover{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: $colour6;
+        grid-row: 1/2;
+        grid-column: 2/3;
+        margin: auto;
+    }
+}
