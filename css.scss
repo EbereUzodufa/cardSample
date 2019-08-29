@@ -152,3 +152,34 @@ p.person-role{
         background: $colour6;
     }
 }
+
+.card-4{
+    @include card();
+    border-radius: 50% 50% 0 0;
+    //Position for person img in card 1
+    .person-img{
+        grid-row: 2/4;
+        grid-column: 2/3;
+        margin: auto;
+    }
+
+    .person-details {
+        grid-row: 5/6;
+        grid-column: 2/3;
+        display: flex;
+        flex-wrap: wrap;
+        /* width: auto; */
+        text-align: center;
+        align-items: center;
+        background:transparent;
+        p{
+            width: 100%;
+            color: $colour3;
+        }
+
+        p.person-name{
+            font-weight: bold;
+            color: $colour6;
+        }
+    }
+}
