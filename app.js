@@ -67,3 +67,9 @@ const build = (data)=>{
     // console.log('profLecturers', profLecturers);
     // console.log('HOD', HOD);
 }
+
+const startApp = () => {
+    fetchData();
+}
+
+startApp();
