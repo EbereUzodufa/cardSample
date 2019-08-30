@@ -91,6 +91,36 @@ const appendElems = (role, arrObj) => {
     }
 }
 
+//Create card
+const createElem = (element, role) => {
+    let name_prefix =  '';
+    let personRole =  '';
+
+    if(role === 'students'){
+        personRole = 'Student'; //I dont know whether ro use capitalize in CSS to handle person role
+    } else{
+        personRole = 'Lecturer';
+        if (role == 'phdLecturers') {
+            name_prefix = 'Dr. ';
+        } else if (role == 'profLecturers' || role == 'HOD') {
+            name_prefix = 'Prof. ';
+
+            if(role == 'HOD'){
+                personRole = 'Head of Department';
+            }
+        }
+    }
+    const div = document. createElement("div");
+    div.classList.add("card", "center-card");
+    div.innerHTML =  `<img src="${element.picture.large}" alt="Picture of ${name_prefix}${element.name.last} ${element.name.first}" class="person-img">
+                <div class="person-details" data-role = "${personRole}">
+                    <p class="person-name">${name_prefix}${element.name.last} ${element.name.first}</p>
+                    <p class="person-role">${personRole}</p>
+                </div>
+                <div class="card-cover"></div>`;
+    return div;
+}
+
 const startApp = () => {
     fetchData();
 }
