@@ -83,6 +83,7 @@ header h1#title {
 
 p.person-name {
   font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
 }
 
 p.person-role {
