@@ -24,3 +24,12 @@
         card.className = 'card-' + childSpanText;
     };    
 })();
+
+const noUserFetched = 200;
+const api = `https://randomuser.me/api/?results=${noUserFetched}`;
+
+const fetchData = ()=>{
+    fetch('https://randomuser.me/api/?results=200')
+        .then((resp) => resp.json())
+        .then(build)
+}
