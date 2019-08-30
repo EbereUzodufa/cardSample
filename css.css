@@ -61,7 +61,7 @@ header nav ul li.navItem button p span {
 
 header h1#title {
   margin: 35px auto;
-  width: 250px;
+  width: auto;
   font-family: 'Viga', sans-serif;
   font-style: normal;
   font-weight: normal;
