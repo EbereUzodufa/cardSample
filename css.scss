@@ -43,6 +43,7 @@ body, header, main, .container, .card-container, .card-1, .card-2, .card-3, .car
 header{
     background: #F2F2F2f5;
     position: fixed;
+    z-index: 50;
     nav{
         background: #fff;
         ul{
