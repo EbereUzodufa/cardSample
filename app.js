@@ -66,6 +66,12 @@ const build = (data)=>{
     // console.log('phdLecturers', phdLecturers);
     // console.log('profLecturers', profLecturers);
     // console.log('HOD', HOD);
+
+    appendElems('HOD', HOD);
+    appendElems('profLecturers', profLecturers);
+    appendElems('phdLecturers', phdLecturers);
+    appendElems('lecturers', lecturers);
+    appendElems('students', students);
 }
 
 //Append Elements
