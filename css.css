@@ -19,6 +19,11 @@ body, header, main, .container, .card-container, .card-1, .card-2, .card-3, .car
   width: 100%;
 }
 
+header {
+  background: #F2F2F2f5;
+  position: fixed;
+}
+
 header nav {
   background: #fff;
 }
