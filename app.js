@@ -68,6 +68,29 @@ const build = (data)=>{
     // console.log('HOD', HOD);
 }
 
+//Append Elements
+const appendElems = (role, arrObj) => {
+    // Check to ensure array or object is not null or undefined
+    if(arrObj != (null || undefined)){
+        const parDiv = document.querySelector('div.card-1');
+
+        //Check if it's an array or object
+        if(Array.isArray(arrObj)){
+            //Then it's an array
+            if(arrObj.length != 0){
+                const frag = document.createDocumentFragment();
+                arrObj.forEach(element => {
+                    frag.append(createElem(element, role));
+                });
+                parDiv.append(frag);
+            }
+        } else{
+            //This is an Object
+            parDiv.append(createElem(arrObj, role));
+        }
+    }
+}
+
 const startApp = () => {
     fetchData();
 }
