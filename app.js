@@ -32,4 +32,38 @@ const fetchData = ()=>{
     fetch('https://randomuser.me/api/?results=200')
         .then((resp) => resp.json())
         .then(build)
+        .catch((err)=>console.log('Error', err));
+}
+
+const build = (data)=>{
+    // console.log('in', data);
+    let users = data.results;
+    // console.log(users);
+
+    //This creates the students by get user with their age less than 55
+    const students = users.filter(user => user.dob.age < 55);
+
+    //This creates the students by get user with their age less than 55
+    const lecturers = users.filter(user => (user.dob.age > 54 && user.dob.age <= 60));
+
+    //This creates the students by get user with their age less than 55
+    const phdLecturers = users.filter(user => (user.dob.age > 60 && user.dob.age <= 65));
+
+    //This creates the students by get user with their age less than 55
+    const profLecturers = users.filter(user => user.dob.age > 65);
+
+    //Get our HOD - the oldest
+    const profAges = profLecturers.map(prof => prof.dob.age);
+    const oldestAge = Math.max(...profAges);
+    const HOD = profLecturers.find(prof => prof.dob.age === oldestAge);
+
+    //Remove HOD from profLecturers array
+    const hodIndex = profLecturers.indexOf(HOD);
+    profLecturers.splice(hodIndex,1);
+
+    // console.log('students', students);
+    // console.log('lecturers', lecturers);
+    // console.log('phdLecturers', phdLecturers);
+    // console.log('profLecturers', profLecturers);
+    // console.log('HOD', HOD);
 }
